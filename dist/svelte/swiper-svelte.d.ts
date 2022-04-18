@@ -66,6 +66,19 @@ declare class Swiper extends SvelteComponentTyped<
    * Event will be fired on mousewheel scroll
    */
   scroll: CustomEvent<[swiper: SwiperClass, event: WheelEvent]>;/**
+   * Event will be fired on draggable scrollbar drag start
+   */
+  scrollbarDragStart: CustomEvent<[swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent]>;
+
+  /**
+   * Event will be fired on draggable scrollbar drag move
+   */
+  scrollbarDragMove: CustomEvent<[swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent]>;
+
+  /**
+   * Event will be fired on draggable scrollbar drag end
+   */
+  scrollbarDragEnd: CustomEvent<[swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent]>;/**
    * Event will be fired on navigation hide
    */
   navigationHide: CustomEvent<[swiper: SwiperClass]>;
@@ -91,19 +104,6 @@ declare class Swiper extends SvelteComponentTyped<
    * Event will be fired on pagination show
    */
   paginationShow: CustomEvent<[swiper: SwiperClass]>;/**
-   * Event will be fired on draggable scrollbar drag start
-   */
-  scrollbarDragStart: CustomEvent<[swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent]>;
-
-  /**
-   * Event will be fired on draggable scrollbar drag move
-   */
-  scrollbarDragMove: CustomEvent<[swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent]>;
-
-  /**
-   * Event will be fired on draggable scrollbar drag end
-   */
-  scrollbarDragEnd: CustomEvent<[swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent]>;/**
    * Event will be fired on zoom change
    */
   zoomChange: CustomEvent<[swiper: SwiperClass, scale: number, imageEl: HTMLElement, slideEl: HTMLElement]>;
