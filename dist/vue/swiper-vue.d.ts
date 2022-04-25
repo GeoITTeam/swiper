@@ -503,22 +503,6 @@ declare const Swiper: DefineComponent<
    * Event will be fired when lazy loading image will be loaded
    */
   lazyImageReady: (swiper: SwiperClass, slideEl: HTMLElement, imageEl: HTMLElement) => void;/**
-   * Event will be fired on mousewheel scroll
-   */
-  scroll: (swiper: SwiperClass, event: WheelEvent) => void;/**
-   * Event will be fired on draggable scrollbar drag start
-   */
-  scrollbarDragStart: (swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent) => void;
-
-  /**
-   * Event will be fired on draggable scrollbar drag move
-   */
-  scrollbarDragMove: (swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent) => void;
-
-  /**
-   * Event will be fired on draggable scrollbar drag end
-   */
-  scrollbarDragEnd: (swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent) => void;/**
    * Event will be fired on navigation hide
    */
   navigationHide: (swiper: SwiperClass) => void;
@@ -526,6 +510,9 @@ declare const Swiper: DefineComponent<
    * Event will be fired on navigation show
    */
   navigationShow: (swiper: SwiperClass) => void;/**
+   * Event will be fired on mousewheel scroll
+   */
+  scroll: (swiper: SwiperClass, event: WheelEvent) => void;/**
    * Event will be fired after pagination rendered
    */
   paginationRender: (swiper: SwiperClass, paginationEl: HTMLElement) => void;
@@ -546,7 +533,20 @@ declare const Swiper: DefineComponent<
   paginationShow: (swiper: SwiperClass) => void;/**
    * Event will be fired on zoom change
    */
-  zoomChange: (swiper: SwiperClass, scale: number, imageEl: HTMLElement, slideEl: HTMLElement) => void;
+  zoomChange: (swiper: SwiperClass, scale: number, imageEl: HTMLElement, slideEl: HTMLElement) => void;/**
+   * Event will be fired on draggable scrollbar drag start
+   */
+  scrollbarDragStart: (swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent) => void;
+
+  /**
+   * Event will be fired on draggable scrollbar drag move
+   */
+  scrollbarDragMove: (swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent) => void;
+
+  /**
+   * Event will be fired on draggable scrollbar drag end
+   */
+  scrollbarDragEnd: (swiper: SwiperClass, event: MouseEvent | TouchEvent | PointerEvent) => void;
     
   /**
    * Fired right after Swiper initialization.
