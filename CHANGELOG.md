@@ -1,5 +1,50 @@
 # Changelog
 
+# [8.1.4](https://github.com/nolimits4web/Swiper/compare/v8.1.3...v8.1.4) (2022-04-24)
+
+### Bug Fixes
+
+- **core:** animate preloader in visible slides if watchSlidesProgress is enabled ([8174b5a](https://github.com/nolimits4web/Swiper/commit/8174b5a5fcc5078b9164ee0577387ca352fd7af9))
+- **core:** more checks for when swiper is destroyed ([de47f09](https://github.com/nolimits4web/Swiper/commit/de47f09f165653eccc682d5b4a51da705d6b6d0d)), closes [#5656](https://github.com/nolimits4web/Swiper/issues/5656) [#5635](https://github.com/nolimits4web/Swiper/issues/5635)
+- **lazy:** animate preloader in not visible slides ([865529b](https://github.com/nolimits4web/Swiper/commit/865529b0cd7d41a18e3bccf5ec511a1158c3e56f))
+
+# [8.1.3](https://github.com/nolimits4web/Swiper/compare/v8.1.2...v8.1.3) (2022-04-20)
+
+### Bug Fixes
+
+- **effects:** improve dynamic slide shadows re-creation for Cube and Flip effects ([98b8a3e](https://github.com/nolimits4web/Swiper/commit/98b8a3eddafe1b1d1456a61fcaac2cc477c6197f))
+
+# [8.1.2](https://github.com/nolimits4web/Swiper/compare/v8.1.1...v8.1.2) (2022-04-20)
+
+### Bug Fixes
+
+- **effects:** fix slide shadows flickering in Safari for Cube and Flip effects ([52f5ef7](https://github.com/nolimits4web/Swiper/commit/52f5ef75eed2f9c11950bee94a6b4060c366c7a7))
+
+### Features
+
+- **cube-effect:** set `--swiper-cube-translate-z` CSS property on swiper-wrapper ([758ad28](https://github.com/nolimits4web/Swiper/commit/758ad28fce90def8ba681219f7625a18e7fbac54))
+
+# [8.1.1](https://github.com/nolimits4web/Swiper/compare/v8.1.0...v8.1.1) (2022-04-15)
+
+### Bug Fixes
+
+- **lazy:** fix lazy preloader in iOS 15 ([794a625](https://github.com/nolimits4web/Swiper/commit/794a625804aac037a8c3d17bbdf1a59d9f074475))
+- **virtual:** fix leaked effects translate when Virtual enabled ([a0e8dd4](https://github.com/nolimits4web/Swiper/commit/a0e8dd464b478746e0023d10f7ab3fe47148e977)), closes [#5588](https://github.com/nolimits4web/Swiper/issues/5588)
+
+# [8.1.0](https://github.com/nolimits4web/Swiper/compare/v8.0.7...v8.1.0) (2022-04-08)
+
+### Bug Fixes
+
+- **pagination:** formatter functions now accept strings as return values ([#5610](https://github.com/nolimits4web/Swiper/issues/5610)) ([629c1c4](https://github.com/nolimits4web/Swiper/commit/629c1c4526f6c324a33118a22faaa8bf47c1a028))
+- **vue:** add missing event ([bda673f](https://github.com/nolimits4web/Swiper/commit/bda673f6a78b4c5cbc8f72ab3a302ef237dfecf2)), closes [#5558](https://github.com/nolimits4web/Swiper/issues/5558)
+- enabled not working (fix [#5611](https://github.com/nolimits4web/Swiper/issues/5611)) ([#5612](https://github.com/nolimits4web/Swiper/issues/5612)) ([6a0554b](https://github.com/nolimits4web/Swiper/commit/6a0554ba6f6c7ecf3715934b217797dd3a2a0f3a))
+
+### Features
+
+- **a11y:** add `id` parameter ([213c8fe](https://github.com/nolimits4web/Swiper/commit/213c8fe7cd7d5696909b19fdfa79dad600d24b3f)), closes [#5586](https://github.com/nolimits4web/Swiper/issues/5586)
+- **angular:** support `[ngClass]` in swiperSlide ([#5562](https://github.com/nolimits4web/Swiper/issues/5562)) ([5d4ffdc](https://github.com/nolimits4web/Swiper/commit/5d4ffdc4fa7d7a40b3c7cf620a5a8411138c5951))
+- **effect-cards:** add `rotate` parameter ([5f4ca8a](https://github.com/nolimits4web/Swiper/commit/5f4ca8a4e63b2487d49084e171012a8a6485bba5)), closes [#5575](https://github.com/nolimits4web/Swiper/issues/5575)
+
 # [8.0.7](https://github.com/nolimits4web/Swiper/compare/v8.0.6...v8.0.7) (2022-03-04)
 
 ### Bug Fixes

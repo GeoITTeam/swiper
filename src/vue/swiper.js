@@ -139,6 +139,7 @@ const Swiper = {
     zoom: { type: [Boolean, Object], default: undefined },
     grid: { type: [Object], default: undefined },
     freeMode: { type: [Boolean, Object], default: undefined },
+    enabled: { type: Boolean, default: undefined },
   },
   emits: [
     '_beforeBreakpoint',
@@ -146,6 +147,7 @@ const Swiper = {
     '_slideClass',
     '_slideClasses',
     '_swiper',
+    '_freeModeNoMomentumRelease',
     'activeIndexChange',
     'afterInit',
     'autoplay',
