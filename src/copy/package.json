@@ -1,5 +1,5 @@
 {
-  "name": "swiper",
+  "name": "@jw/swiper",
   "version": "8.1.4",
   "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
   "typings": "swiper.d.ts",
