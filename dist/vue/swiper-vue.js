@@ -1,5 +1,5 @@
 /**
- * Swiper Vue 8.1.7
+ * Swiper Vue 8.1.8
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
