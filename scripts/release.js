@@ -118,7 +118,7 @@ async function release() {
   } else if (options.alpha || options.next) {
     await exec.promise('cd ./dist && npm publish --tag next');
   } else {
-    await exec.promise('cd ./dist && npm publish');
+    await exec.promise('cd ./dist && npm publish --access public');
   }
 }
 
